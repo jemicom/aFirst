@@ -286,8 +286,18 @@ $
 
 파일 만들기
 git init
+
+// usb 사용하고 있다면 
+// git config --global --add safe.directory 'E:/주말_frontend_3/day02_1224'
+
 git add . 형상(버전)관리할 파일 설정
-git commit -m "first commit"
+
+//  git config --global user.email "you@example.com"
+//  git config --global user.name "Your Name"
+//  git config --list : 사용자 정보를 확인 가능 
+//  편집창들어가는데 빠져나오기 ESC > :q
+
+git commit -m "first commit" 
 git branch -M main
 git remote add origin https://github.com/jemicom/aFirst.git
 git push -u origin main
